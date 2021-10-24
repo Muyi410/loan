@@ -14,7 +14,10 @@ Description of data
               
  How to Run the Program using the loan Dataset.
 For this Dataset, below is the steps taken to run the program in R.
-
+> library(ggplot2)
+> library(dplyr)
+>library(broom)
+> library(ggpubr)
 >loan<-read.csv("//Users//muyi//Desktop//loan.csv")
 > loan
 > str(loan)
